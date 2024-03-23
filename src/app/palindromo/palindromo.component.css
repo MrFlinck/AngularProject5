@@ -18,8 +18,8 @@
 }
 
 .component2{
-    height: 50%;
-    width: 50%;
+    height: 500px;
+    width: 500px;
     border-radius: 10px;
     background-color: rgb(44, 44, 44);
     box-shadow: 0 4px 12px   black;
@@ -30,13 +30,23 @@
 }
 
 .input1{
-    height: 25px;
+    height: 30px;
     width: 400px;
     border-radius: 10px;
     box-shadow: 0 4px 12px   black;
     
     
   
+}
+
+.img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px ;
+    
 }
 
 

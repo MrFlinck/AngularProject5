@@ -13,7 +13,24 @@
         <div class="component2">
             <div>
                 <input class="input1" id="input1" placeholder="Digite algo..." [(ngModel)]="valor" (input)="palindromo()">
-                <p>A palavra  possui {{ numLetras }} letras.</p>
+                <div *ngIf="valor!= ''">
+                    
+                    
+                    <div *ngIf="resultado == 'true'">
+                        <img class="img" src="../../assets/satisfacao.gif">
+                        <div class="alert alert-info" role="alert">
+                            É um palíndromo! 😃
+                          </div>
+                        </div>
+                    </div>
+                    <div *ngIf="resultado == 'false'">
+                        <img  class="img" src="../../assets/triste.jpg">
+                        <div class="alert alert-warning" role="alert">
+                            Não é um palíndromo 😥
+                          </div>
+                    
+                    
+                    </div>
             </div>
  
 
